@@ -1,11 +1,16 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <header>
-      <h1>My App</h1>
       <nav>
         <ul>
-            <li><a href="#"></a>Calculator</li>
-            <li><a href="#"></a>How it Works</li>
+          <li>
+            <Link to="/">Moon Phase Calculator</Link>
+          </li>
+          <li>
+            <Link to="/howitworks">How It Works</Link>
+          </li>
         </ul>
       </nav>
       <hr />
